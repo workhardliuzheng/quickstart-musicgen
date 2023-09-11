@@ -34,7 +34,7 @@ MusicGen基于社区开源版本部署，参考源码[audiocraft](https://github
 | AliyunROSFullAccess | 管理资源编排服务（ROS）的权限  |
 | AliyunComputeNestUserFullAccess | 管理计算巢服务（ComputeNest）的用户侧权限   |
 
-![1.png](docs%2F1.png)
+![1.png](1.png)
 
 ### 1.部署入口
 
@@ -69,45 +69,45 @@ MusicGen基于社区开源版本部署，参考源码[audiocraft](https://github
 - 选择交换机可用区
 - 编辑专有网络IPV4网段，有三个网段可供您选择
 
-![2.png](docs%2F2.png)
+![2.png](2.png)
 
 - 编辑交换机子网网段，交换机子网网段需要属于专有网络IPV4网段
 
-![3.png](docs%2F3.png)
+![3.png](3.png)
 
 - 选择实例类型，我们为您设置了默认值。如果列表都是灰色无法选择，请更换一个可用区或更换另一个地域
 
-![4.png](docs%2F4.png)
+![4.png](4.png)
 
 - 编辑系统盘空间，最少需要60G，最大可设置为500G
 - 编辑实例密码
 
-![5.png](docs%2F5.png)
+![5.png](5.png)
 
 - 点击下一步，进入订单确认页面
 - 勾选“权限确认”和“服务条款”中的复选框
 - 点击“立即创建”
 
-![6.png](docs%2F6.png)
+![6.png](6.png)
 
 ### 3.启动MusicGen服务
 
 - 在“服务实例管理”页面等待“部署状态”变为“已部署”。
 
-![7.png](docs%2F7.png)
+![7.png](7.png)
 
 - 点击该服务实例可进入服务实例详情。
 - 点击Endpoint
 
-![8.png](docs%2F8.png)
+![8.png](8.png)
 
 - 进入编辑界面，您可以在imput image里上传图片
 
-![9.png](docs%2F9.png)
+![9.png](9.png)
 
 - 点击提交，在右侧即可生成音乐
 
-![10.png](docs%2F10.png)
+![10.png](10.png)
 
 - 您可以调节Duration来控制生成音乐的长度，最多可生成30秒
 
